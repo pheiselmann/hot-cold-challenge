@@ -1,9 +1,11 @@
 import React from 'react';
 
 export default class GuessInput extends React.Component {
-	constructor(props) {
-		super(props);
-	}
+// 	constructor(props) {
+// 		super(props);
+// 	}
+
+// export default function GuessInput(props) {
 
 	onSubmit(event) {
         event.preventDefault();

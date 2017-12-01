@@ -42,6 +42,7 @@ export default class Feedback extends React.Component {
     const guesses = this.state.guesses.map((guess, index) =>
       <Guess key={index} {...guess} />
     );
+    
     return (
       <div className="guess-input">
         <h3>Random Number</h3>
